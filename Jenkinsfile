@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/emotytto00/sportstracker.git'
+                git 'https://github.com/emotytto00/LocalizedGreeting.git'
             }
         }
         stage('Run Tests') {
